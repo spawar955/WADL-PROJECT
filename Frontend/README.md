@@ -1,3 +1,17 @@
+# FUNCTIONALITIES
+## 1. Login / SignUp of Customer 
+   => Customer Travel History 
+## 2. Ticket Booking 
+   => Source - Destination Selection \
+   => Availability of Seats (Seats Interface) \
+   => Date / Time of Booking \
+   => No. of Seats to be booked \
+   => Multiple Options 
+## 3. Agent UI 
+   => Add / Remove Services \
+   => Update / Edit Services
+    
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
