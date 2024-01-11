@@ -1,0 +1,94 @@
+
+.Header{
+    padding: 1% 2% 1% 2%; 
+    background-color: black;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* LOGO  */
+.logo{
+    background-color: aqua;
+}
+
+
+/* NAVBAR  */
+.navbar{
+    background-color: aqua;
+    width: 50%;
+
+    display: flex;
+    justify-content: space-around;
+}
+.nav{
+    background-color: red;
+}
+
+
+/* SOCIAL MEDIA  */
+.social-media{
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES FOR MAX-WIDTH - 1000 */
+@media (max-width: 1000px){
+    .Header{
+
+    }
+    .logo{
+
+    }
+    .navbar{
+
+    }
+    .social-media{
+        background-color: aqua;
+    }
+}
+
+
+
+
+/* MEDIA QUERIES FOR MAX-WIDTH - 700 */
+@media (max-width: 700px){
+    .Header{
+        
+    }
+    .logo{
+
+    }
+    .navbar{
+
+    }
+    .social-media{
+        background-color: aqua;
+    }
+}
+
+
+
+
+/* MEDIA QUERIES FOR MAX-WIDTH - 500 */
+@media (max-width: 500px){
+    .Header{
+        
+    }
+    .logo{
+
+    }
+    .navbar{
+
+    }
+    .social-media{
+        background-color: aqua;
+    }
+}
