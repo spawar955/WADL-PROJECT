@@ -1,13 +1,22 @@
-import React from 'react';
 import logo from './logo.svg';
+import React, { useState } from 'react';
+
+
+import { Button, Collapse, Card } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 import './App.css';
 import './Styles/Header.css'
 import './Styles/HomePage.css'
+import './Styles/Buses.css'
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './Components/Header';
 import HomePage from './Components/HomePage';
+import Buses from './Components/Buses';
 
 
 const  App = () => {
@@ -17,6 +26,7 @@ const  App = () => {
       <Router>
         <Routes>
           <Route path="/" element= {<HomePage/>}/>
+          <Route path="/Buses" element= {<Buses/>}/>
         </Routes>
       </Router>
     

@@ -1,0 +1,86 @@
+.Buses{
+    display: flex;
+    height: 100vh;
+}
+
+
+/* FILTERS  */
+.filters{
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(0, 255, 145);
+    
+}
+.filters p{
+    width: 10%;
+}
+.filters_bar{
+
+}
+.btn img{
+    width: 100%;
+
+}
+  
+
+
+
+
+.buses_list{
+    height: 100vh;
+    width: fit-content;
+    background-color: rgb(255, 136, 127);
+
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES FOR MAX-WIDTH - 1000 */
+@media (max-width: 1000px){
+    .Buses{
+
+    }
+    .filters{
+    
+    }
+    .buses_list{
+    
+    }    
+}
+
+
+
+
+/* MEDIA QUERIES FOR MAX-WIDTH - 700 */
+@media (max-width: 700px){
+    .Buses{
+
+    }
+    .filters{
+    
+    }
+    .buses_list{
+    
+    }
+}
+
+
+
+
+/* MEDIA QUERIES FOR MAX-WIDTH - 500 */
+@media (max-width: 500px){
+    .Buses{
+
+    }
+    .filters{
+    
+    }
+    .buses_list{
+    
+    }
+}
